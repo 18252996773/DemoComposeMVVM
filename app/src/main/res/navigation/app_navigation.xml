@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/HomeFragment">
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="mvvm.compose.demo.pages.home.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/AttractionsDetailFragment"
+        android:name="mvvm.compose.demo.pages.attractions.AttractionsDetailFragment"
+        android:label="AttractionsFragment" />
+    <fragment
+        android:id="@+id/WebDetailFragment"
+        android:name="mvvm.compose.demo.pages.attractions.WebDetailFragment"
+        android:label="WebDetailFragment" />
+</navigation>
